@@ -1,0 +1,5 @@
+On your platform of choice (mine is CodeAnywhere), create various NodeJS http/s server tests - printing basic text/json, returning html using the NodeJS http services.  Be creative, what examples can you find?  
+
+Then, in another directory, install the Express package for NodeJS - review the class lectures to see this process.  Then find some simple NodeJS and Express examples showing static pages, and try to find an MVC example (maybe checkout ToDoMVC.com or similar but keep it all on the server!).
+
+Create a Github archive containing all your working NodeJS examples - follow the discussion in class recordings. 

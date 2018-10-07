@@ -1,0 +1,15 @@
+{
+  "name": "nodeexpressexamples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "expressForm.js",
+  "scripts": {
+    "test": "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C:\u001b[B\u001b[B\u001b[C"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}

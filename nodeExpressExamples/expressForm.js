@@ -11,10 +11,10 @@ const portNumber = 3000;
 //Thanks https://stackoverflow.com/questions/24330014/bodyparser-is-deprecated-express-4
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
-
+app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
-	res.status(200).sendFile(path.join( __dirname + '/sampleForm.html'));
+	res.status(200).sendFile(path.join( __dirname + '/public'));
 });
 
 app.post('/registerHalloween', (req, res) => {

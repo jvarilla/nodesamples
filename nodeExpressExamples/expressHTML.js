@@ -5,8 +5,9 @@ const express = require('express');
 const path = require('path');
 let app = express();
 const portNumber = 3000;
+
 app.get('/', (req, res) => {
-	res.status(200).sendFile(path.join( __dirname + '/index.html'));
+	res.status(200).sendFile(path.join( __dirname + '/helloWorld.html'));
 });
 
 app.listen(portNumber, () => {
